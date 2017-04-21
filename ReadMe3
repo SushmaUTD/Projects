@@ -1,0 +1,57 @@
+Question1:
+
+Execution command:
+./bin/spark-submit ~/Desktop/Big_Data_Proj3/question1.py
+
+
+Question 2:
+
+Command:
+./bin/spark-submit ~/Desktop/Big_Data_Proj3/question2a.py
+
+Command:
+./bin/spark-submit ~/Desktop/Big_Data_Proj3/question2b.py
+
+
+Question 3:
+
+./bin/spark-submit ~/Desktop/Big_Data_Proj3/question3.py
+
+Question 4:
+
+-Start kafka
+ Run the following commands on terminal on different tabs:
+	- bin/kafka-server-start.sh config/server.properties
+	- bin/zookeeper-server-start.sh config/zookeeper.properties
+	
+- Start elastic search and kibana	
+- Create mapping for index on elastic search:
+
+curl -XPUT http://localhost:9200/sentiment -d '
+{
+ "mappings" : {
+  "test-type" : {
+   "properties" : {
+    "text" : {"type": "string", "index" : "not_analyzed" },
+    “xyz” : {"type": "string", "index" : "not_analyzed" },
+	"location" : {"type": "geo_point"},
+	"negative" : {"type" : "long"},
+	"timestamp" : {"type": "date"},
+	"positive" : {"type" : "long”},
+	"neutral" : {"type" : "long"}
+   }
+  }
+ }
+}
+';
+
+Execute on terminal:
+ -python importTweets.py
+ -spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.1.0 consumers.py localhost:2181 tweetbigdata
+	
+- Open  browser:
+ 	- type https://localhost:5601
+	- Create an indexed pattern in kibana
+	- In visualize, select SUM for fields positive, negative and neutral.
+	- Store visualization
+	- In dashboard, create a dashboard and set auto-refresh time for 1 minute.
