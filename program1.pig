@@ -1,0 +1,13 @@
+A1 = LOAD '/test/review.csv' AS line;
+B1 = FOREACH A1 GENERATE FLATTEN((tuple(chararray,chararray,chararray,float))REGEX_EXTRACT_ALL(line,'(.*)\\:\\:(.*)\\:\\:(.*)\\:\\:(.*)')) AS (b1,b2,b3,b4);
+A2 = LOAD '/test/business.csv' AS line;
+B2 = FOREACH A2 GENERATE FLATTEN((tuple(chararray,chararray,chararray))REGEX_EXTRACT_ALL(line,'(.*)\\:\\:(.*)\\:\\:(.*)')) AS (c1,c2,c3);
+C3 = FILTER B2 BY c2 MATCHES '.*Palo Alto, CA.*';
+T2 = GROUP B1 BY(b3);
+T3 = foreach T2 generate group as a, AVG(B1.b4) as b;
+T6 = join T3 by a, C3 by c1; 
+T7 = distinct T6;
+T4 = order T7 by b desc;
+T5 = limit T4 10;
+T8 =  foreach T5 generate $0, $3, $4;
+dump T8;

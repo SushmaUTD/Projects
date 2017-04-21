@@ -1,0 +1,10 @@
+A1 = LOAD '/test/review.csv' AS line;
+B1 = FOREACH A1 GENERATE FLATTEN((tuple(chararray,chararray,chararray,float))REGEX_EXTRACT_ALL(line,'(.*)\\:\\:(.*)\\:\\:(.*)\\:\\:(.*)')) AS (b1,b2,b3,b4);
+A2 = LOAD '/test/business.csv' AS line;
+B2 = FOREACH A2 GENERATE FLATTEN((tuple(chararray,chararray,chararray))REGEX_EXTRACT_ALL(line,'(.*)\\:\\:(.*)\\:\\:(.*)')) AS (c1,c2,c3);
+C2 = FILTER B2 BY c2 MATCHES '.*Stanford.*';
+C3 = JOIN B1 BY b3,C2 BY c1;
+C5 = distinct C3;
+C6 = limit C5 10;
+C4 = FOREACH C6 GENERATE $1, $3;
+dump C4;
