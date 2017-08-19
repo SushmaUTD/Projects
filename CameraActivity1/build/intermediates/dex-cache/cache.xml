@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/google-oauth-client-java6-1.11.0-beta.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c07d4fd295d5ddf9e92c23c88f854fb733770d4a">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-java6-1.11.0-beta_297a775700d4e640952fc920c1bb1e6f69795f58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/22bff70037e1e6fa7e6413149489552ee2064702/servlet-api-2.5-20081211.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22bff70037e1e6fa7e6413149489552ee2064702">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/servlet-api-2.5-20081211_3e18ac70e547323bc002ff956dfcbb4b9f621557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-util/6.1.26/e5642fe0399814e1687d55a3862aa5a3417226a9/jetty-util-6.1.26.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e5642fe0399814e1687d55a3862aa5a3417226a9">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/jetty-util-6.1.26_6c76c645148ad0e415235a1685c7f3c31c084ed9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.11.0-beta/bb1fae47509938d157259414386e3e6c083935d/google-http-client-1.11.0-beta.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0bb1fae47509938d157259414386e3e6c083935d">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-1.11.0-beta_0cdc79a0d265bcf7572b4d00f2f7f3dbeefa3eb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_fd224a271000510beab6f28e5ac89fbbfeaaa4fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6cb541461c2834bdea3eb920f1884d1eb508b50">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/activation-1.1_e0ecacaa4381307df101d3b957972957c014f028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/google-oauth-client-jetty-1.11.0-beta.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7264fbc551ad8219b014feb662b1f1d187c2e7b7">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-jetty-1.11.0-beta_b0c3757127b2718f2de70af46d47bcb4737e444d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty/6.1.26/2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0/jetty-6.1.26.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/jetty-6.1.26_17b50f6d839b291a4c5f4eea666f1b2186d86922/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4/1aa1579ae5ecd41920c4f355b0a9ef40b68315dd/mail-1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1aa1579ae5ecd41920c4f355b0a9ef40b68315dd">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/mail-1.4_6d1a710951bec8c380ef44176999ca72e375c09f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.gdata/core/1.47.1/52ee0d917c1c3461f6e12079f73ed71bc75f12d4/core-1.47.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="52ee0d917c1c3461f6e12079f73ed71bc75f12d4">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-1.47.1_0d1b81786ae6083d99c259a0858df7a3cf8a123a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac1ec0212ff56b1527157c0ba3b1e7af35efc533">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bb653f19f73a8b35ef58e272f13b9163d3f83c6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d5a96de9b23b4d1e1522e19d2a5bf82b2923b100/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.11.0-beta/61b1dde371c6e939bc416e8d19bbed658ff5ca76/google-oauth-client-1.11.0-beta.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="61b1dde371c6e939bc416e8d19bbed658ff5ca76">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-1.11.0-beta_5eaecc8a77f84cf410774133f1a9676510f2dbe0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/13.0.1/d6f22b1e60a2f1ef99e22c9f5fde270b2088365/guava-13.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d6f22b1e60a2f1ef99e22c9f5fde270b2088365">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-13.0.1_fa8dcab019214e27e6c28db5e2c0db02ea826714/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Sushma/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/Sushma/AndroidStudioProjects/CameraActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_c8078f383d4b164a26c154c83a3981ee6fdd7840/classes.dex" />
+    </item>
+
+</items>
