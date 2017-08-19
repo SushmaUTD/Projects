@@ -1,0 +1,6 @@
+STEPS TO RUN AND DEPLOY WEBSERVICE:
+
+1. Build the webservice using the command: mvn clean install.
+2. Copy the war file to a tomcat and start it.
+
+Once the web service is up and running: Change the url in Camera Activity Class and Run the Application.
