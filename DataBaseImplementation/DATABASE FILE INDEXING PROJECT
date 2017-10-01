@@ -1,0 +1,94 @@
+DATABASE FILE INDEXING PROJECT
+
+SAI MANI LIKHITA KANCHARLA (sxk167530)
+
+Execute the runnable jar file from the terminal.
+Upon running the jar file the elcome screen is diplayed.
+Type help; to show supported commands.
+The supported data types are INT,BIGINT,TINYINT,DOUBLE,REAL,TEXT,DATE,DATETIME.
+The corresponding table files are created in the directory.
+The davisbase_columns.tbl ,davisbase_tables.tbl are updated upon creation of new tables.
+
+The sample commands executed are:
+#Creation of Table
+create table foo (id int,name text);
+#SHOW tables
+show tables;
+--------------------
+table_name          |
+--------------------
+davisbase_tables    |
+davisbase_columns   |
+employee            |
+sample              |
+foo                 |
+
+
+#Insertion of Records
+insert into foo (id,name) values(333,manu);
+DAVISQL> select * from foo;
+----------------
+id    |name      |
+----------------
+222   |likhita   |
+
+
+#SELECTION OF A PARTICULAR RECORD
+select id from foo where name=likhita;
+------
+id    |
+------
+222   |
+
+
+#DROPPING A TABLE
+DAVISQL> drop table employee;
+DAVISQL> show tables;
+--------------------
+table_name          |
+--------------------
+davisbase_tables    |
+davisbase_columns   |
+sample              |
+foo                 |
+
+
+#UPDATION OF A RECORD
+DAVISQL> update foo set name=likhita where id=222;
+DAVISQL> select * from foo;
+-------------
+id    |name   |
+-------------
+222   |sush   |
+
+
+#EXITING
+DAVISQL> exit;
+The System is terminating
+
+DAVISQL> select * from davisbase_tables;
+----------------------------
+rowid   |table_name          |
+----------------------------
+1       |davisbase_tables    |
+2       |davisbase_columns   |
+4       |sample              |
+5       |foo                 |
+
+DAVISQL> select * from davisbase_columns;
+--------------------------------------------------------------------------------------------
+rowid   |table_name          |column_name        |data_type   |ordinal_position   |is_nullable   |
+--------------------------------------------------------------------------------------------
+1       |davisbase_tables    |rowid              |INT         |1                  |NO            |
+2       |davisbase_tables    |table_name         |TEXT        |2                  |NO            |
+3       |davisbase_columns   |rowid              |INT         |1                  |NO            |
+4       |davisbase_columns   |table_name         |TEXT        |2                  |NO            |
+5       |davisbase_columns   |column_name        |TEXT        |3                  |NO            |
+6       |davisbase_columns   |data_type          |TEXT        |4                  |NO            |
+7       |davisbase_columns   |ordinal_position   |TINYINT     |5                  |NO            |
+8       |davisbase_columns   |is_nullable        |TEXT        |6                  |NO            |
+11      |sample              |id                 |INT         |1                  |YES           |
+12      |sample              |itemid             |INT         |2                  |YES           |
+13      |foo                 |id                 |INT         |1                  |YES           |
+14      |foo                 |name               |TEXT        |2                  |YES           |
+
