@@ -28,7 +28,7 @@ public class FaceBookBrowsing {
 				//Step4:  get the title of the page and print in the console screen.
 				System.out.println("your FaceBook Page Title is : "+driver.getTitle());
 				driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("sxe160530@utdallas.edu");
-				driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("Sushmasush30_");
+				driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("**********");
 				Thread.sleep(2000);
 				driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys(Keys.ENTER);
 				Thread.sleep(3000);
