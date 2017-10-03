@@ -11,6 +11,14 @@ public class Login {
 
 	String username;
 	String password;
+	String location;
+	
+	public String getLocation() {
+		return location;
+	}
+	public void setLocation(String location) {
+		this.location = location;
+	}
 	public String getUsername() {
 		return username;
 	}

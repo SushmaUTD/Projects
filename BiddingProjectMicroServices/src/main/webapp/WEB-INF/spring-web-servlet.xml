@@ -15,7 +15,19 @@
 	<context:component-scan base-package="com.wpl.bidding.model" />
 	<mvc:annotation-driven />
 
+<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+	<property name="host" value="smtp.gmail.com" />
+	<property name="port" value="587" />
+	<property name="username" value="sushma3903@gmail.com" />
+	<property name="password" value="Sushma3005_" />
 
+	<property name="javaMailProperties">
+		<props>
+           	<prop key="mail.smtp.auth">true</prop>
+           	<prop key="mail.smtp.starttls.enable">true</prop>
+       	</props>
+	</property>
+</bean>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
@@ -60,7 +72,9 @@
 	<bean id="loginServiceImpl" class="com.wpl.bidding.service.LoginServiceImpl">
 	</bean>
 	<bean id="loginDaoImpl" class="com.wpl.bidding.dao.LoginDaoImpl"></bean>
-		<bean id="userService" class="com.wpl.bidding.service.UserServiceImpl">
+	<bean id="searchDaoImpl" class="com.wpl.bidding.dao.SearchDaoImpl"></bean>
+	<bean id="searchServiceImpl" class="com.wpl.bidding.service.SearchServiceImpl"></bean>
+	<bean id="userService" class="com.wpl.bidding.service.UserServiceImpl">
 	</bean>
 	<bean id="userDao" class="com.wpl.bidding.dao.UserDaoImpl"></bean>
 	<bean id="UserModel" class="com.wpl.bidding.model.UserModel"></bean>

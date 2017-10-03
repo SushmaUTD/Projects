@@ -14,6 +14,11 @@ public class ConstantMessages {
 	public static final String noUser = "No user with given Id";
 	public static final String foundUser = "Found user with given ID";
 	public static final String updatedUserInfo = "User information has been updated";
+	public static final String noSearchResult = "No results found";
+	public static final String foundResult = "Found Result";
+	public static final String createdNewItem = "New Item Created Successfully";
+	public static final String technicalError = "Technical Error!! please try later";
+	
 	
 	//Status Codes
 	public static final String successCode="B200";

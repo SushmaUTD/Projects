@@ -28,7 +28,7 @@ public class LoginController {
 	public @ResponseBody UserModel register(@RequestBody User user) {
 		UserModel userModel = new UserModel();
 		User newUser = new User();
-			newUser = loginService.register(user);
+		newUser = loginService.register(user);
 			if (user == null)
 			{
 				userModel.setResponse(new Response(ConstantMessages.registerFailureMessage,ConstantMessages.emptyResponseCode));
@@ -38,7 +38,6 @@ public class LoginController {
 				userModel.setResponse(new Response(ConstantMessages.creationMessage,ConstantMessages.creationCode));	
 			}
 		userModel.setUserDetails(newUser);	
-	
 		return userModel;
 	}
 
@@ -46,7 +45,7 @@ public class LoginController {
 	public @ResponseBody UserModel homePage(@RequestBody Login userDetails) {
 		UserModel userModel = new UserModel();
 		User user = new User();
-			user = loginService.login(userDetails.getUsername(), userDetails.getPassword());
+			user = loginService.login(userDetails.getUsername(), userDetails.getPassword(),userDetails.getLocation());
 			if (user == null)
 			{
 				userModel.setResponse(new Response(ConstantMessages.loginFailureMessage,ConstantMessages.emptyResponseCode));
