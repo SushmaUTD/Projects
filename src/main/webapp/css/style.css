@@ -1,0 +1,71 @@
+.affix {
+	top: 0px;
+	width: 100%;
+	border-radius: 0px;
+}
+
+.navbar {
+	width: 100%;
+	border-radius: 0px;
+	background-color: #35D2AF;
+	border-width: 0px;
+	opacity: 77%;
+}
+.active {
+	background-color: #21B997;
+}
+
+#nameBox {
+	display: inline-block;
+	background-color: #DBDBDB;
+	width: 321px;
+	height: 80px;
+	border-width: 0px;
+	border-radius: 12px;
+	margin-left: 37.5%;
+	margin-right: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0px 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+#limitBox {
+	display: inline-block;
+	background-color: #DBDBDB;
+	width: 80px;
+	height: 80px;
+	border-width: 0px;
+	border-radius: 12px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+#loginForm {
+	margin-left: 38vw;
+	width: 300px;
+	margin-top: 18vw;
+	height: 300px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#textFields {
+	margin-left: 22%;
+	margin-top: 30px;
+	border: 0.4px gray;
+	border-radius: 8px;
+	font-size: 15px;
+	overflow: auto;
+	padding: 5px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type = submit] {
+	border: 0px;
+	font-size: 16px;
+	font-weight: lighter;
+	background-color: #44c767;
+	margin-top: 10%;
+	margin-left: 35%;
+	color: white;
+	position: relative;
+	padding: 10px 21px;
+	box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}

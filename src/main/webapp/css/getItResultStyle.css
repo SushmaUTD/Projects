@@ -1,0 +1,30 @@
+#table {
+	background-color: #44c767;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+#textFields3 {
+	margin-left: 30%;
+	margin-top: 30px;
+	border: 0.4px gray;
+	border-radius: 8px;
+	font-size: 15px;
+	overflow: auto;
+	padding: 5px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+#textFields2 {
+	margin-left: 47%;
+	margin-top: 30px;
+	border: 0.4px gray;
+	border-radius: 4px;
+	font-size: 15px;
+	overflow: auto;
+	padding: 5px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
